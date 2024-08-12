@@ -1,6 +1,6 @@
 function getChange(priceOfItem, moneyGivenToPurchase) {
-    moneyGiven = Math.round(moneyGivenToPurchase*100)
-    price= Math.round(priceOfItem*100)
+    let moneyGiven = Math.round(moneyGivenToPurchase*100)
+    let price= Math.round(priceOfItem*100)
     remainingMoney= (moneyGiven-price)
     output=[0,0,0,0,0,0]
     denominator=[1, 5, 10, 25, 50, 100]
@@ -13,8 +13,8 @@ function getChange(priceOfItem, moneyGivenToPurchase) {
     return output
 }
 
-prize=2.25
-givenmoney= 5
+let prize=2.25
+let givenmoney= 5
 
 console.log(getChange(prize,givenmoney));
 

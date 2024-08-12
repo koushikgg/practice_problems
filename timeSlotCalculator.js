@@ -1,5 +1,5 @@
 function timeSlotCalculator(arr) {
-    output = []
+    const output = []
     for (let i = 0; i < arr.length; i++) {
         if (i === arr.length - 1) {
             if (arr[i][1] < 24) {
@@ -20,6 +20,6 @@ function timeSlotCalculator(arr) {
     return output
 }
 
-array = [[10, 12], [14, 15], [16, 23]]
+const array = [[10, 12], [14, 15], [16, 23]]
 
 console.log(timeSlotCalculator(array));
