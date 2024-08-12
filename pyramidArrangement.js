@@ -11,5 +11,5 @@ function pyramid(arr1) {
 }
 
 
-const arry = [1, 4, 3, 6, 8, 7, 9, 2, 5, 0, 12, 23, -1,67]
+const arry = [1, 4, 3, 6, 8, 7, 9, 2, 5, 0, 12, 23, -1, 67]
 console.log(pyramid(arry));
