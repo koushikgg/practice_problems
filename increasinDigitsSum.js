@@ -12,5 +12,5 @@ function increaseDigitsSum(number){
     findCombination(1,number,[])
     return output
 }
-let number= 5
+let number= 10
 console.log(increaseDigitsSum(number).join('\n'));
