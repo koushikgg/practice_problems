@@ -1,14 +1,11 @@
-function nDigitNumberOfSum(n,sum){
+function nDigitNumberOfSum(number,sum){
     output = []
     function findCombination(n,sum,combinations){
         if (n===0 ){
             if(sum===0){
-                if (combinations.length!==3){
-                    while(combinations.length<3){
-                        combinations.push(0)
-                    }
+                if (combinations[0]!==0){
+                    output.push(combinations.join(''))
                 }
-                output.push(combinations.join(''))
             }
             return
         }
